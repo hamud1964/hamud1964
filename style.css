@@ -1,0 +1,85 @@
+div{
+    border: 3px  pink; 
+    margin: 5px;
+    background-color: blue;
+    padding: 5px;
+}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+       
+        outer-block {
+            border: 1px solid #ccc;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        logo {
+            max-width: 100%;
+            height: auto;
+        }
+
+      
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        table, th, td {
+            border: 1px solid #ccc;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+       
+        copyright {
+            margin-top: 20px;
+        }
+   
+
+#outer {
+    background: yellow;
+}
+
+
+ inner-block b-3,
+inner-block b-4,
+ inner-block b-5 {
+    background-color: grey;
+}
+
+ 
+ inner-block {
+    padding: 5px;
+}
+
+
+#b3 {
+    width: 25%;
+    float: left;
+    clear: none;
+}
+
+#b-4 {
+    width: 60%; 
+    float: left;
+    clear: none;
+}
+
+#b-5 {
+    width: 13%;
+    float: left;
+    clear: none;
+}
+
+
+ clear {
+    clear: both; 
+}
